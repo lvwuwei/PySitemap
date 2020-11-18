@@ -14,6 +14,8 @@ python3 main.py --url="https://www.finstead.com"
 If you want custome path for sitemap file you can add `--output` option like below
 ```
 python3 main.py --url="https://www.finstead.com" --output="/custom/path/sitemap.xml"
+python3 main.py --url="http://www.byy3.com" --output="/home/jovyan/guo/PySitemap/sitemap_byy3.com.xml"
+python3 main.py --url="http://www.byy3.com" --output="/home/lvwuwei/guo/pysitemap/sitemap_byy3.com.xml"
 ```
 By default program will print parsing urls in console, but if you want to run siletnly you can add `--no-verbose` option. 不显示详解verbose ，在控制台没有任何输出
 ```
